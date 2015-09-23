@@ -2,7 +2,7 @@ activemq Cookbook CHANGELOG
 ===========================
 This file is used to list changes made in each version of the activemq cookbook.
 
-v1.3.6
+v1.3.6 (2015-09-23)
 -------------------
 - Exposing additional wrapper configuration properties as attributes
 
