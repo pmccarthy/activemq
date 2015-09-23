@@ -22,6 +22,10 @@ default['activemq']['version'] = '5.9.1'
 default['activemq']['home']  = '/opt'
 default['activemq']['wrapper']['max_memory'] = '1024'
 default['activemq']['wrapper']['useDedicatedTaskRunner'] = 'true'
+default['activemq']['wrapper']['logfile']['maxsize'] = '0'
+default['activemq']['wrapper']['logfile']['maxfiles'] = '0'
+default['activemq']['wrapper']['logfile']['loglevel'] = 'INFO'
+default['activemq']['wrapper']['console']['loglevel'] = 'INFO'
 
 default['activemq']['enabled'] = true
 default['activemq']['enable_stomp'] = true

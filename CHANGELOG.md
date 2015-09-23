@@ -2,6 +2,10 @@ activemq Cookbook CHANGELOG
 ===========================
 This file is used to list changes made in each version of the activemq cookbook.
 
+v1.3.6
+-------------------
+- Exposing additional wrapper configuration properties as attributes
+
 v1.3.5
 -------------------
 - Adding global amq distribution service switch

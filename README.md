@@ -24,7 +24,12 @@ Attributes
 - `node['activemq']['enable_stomp']` - Flag that decides whether or not to use stomp. Note: This is
 only used when `use_default_config` attribute is true.
 - `node['activemq']['use_default_config']` - Flag that allows the option to use a basic configuration file
-
+- `node['activemq']['install_java']` - Whether or not to use the Java community cookbook to install Java. Defaults to `true`.
+- `node['activemq']['enabled']` - Whether or not the ActiveMQ service should be started.  Defaults to `true`.
+- `node['activemq']['wrapper']['logfile']['maxsize']` - Set Log File Max Size. Defaults to 0
+- `node['activemq']['wrapper']['logfile']['maxfiles']` - Set Max number of archived log files. Defaults to 0
+- `node['activemq']['wrapper']['logfile']['loglevel']` - Set Log Level of default wrapper log file. Defaults to `INFO`
+- `node['activemq']['wrapper']['console']['loglevel']` - Set Log Level of default wrapper console log. Defaults to `INFO`
 
 Usage
 -----
